@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:news_app/models/article_model.dart';
 
 class NewsTile extends StatelessWidget {
-  const NewsTile({super.key});
+  const NewsTile({super.key, required this.article});
+  final ArticleModel article;
 
   @override
   Widget build(BuildContext context) {
@@ -12,16 +14,22 @@ class NewsTile extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              'assets/entertaiment.avif',
+            child: Image.network(
+              article.image ??
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3jhdlr9vMe9nEqiYaAwr4h-jMrmr_fhiqVw&s',
+              errorBuilder: (context, error, stackTrace) {
+                return const Center(
+                  child: Icon(Icons.broken_image, size: 50, color: Colors.grey),
+                );
+              },
               width: double.infinity,
               height: 200,
               fit: BoxFit.cover,
             ),
           ),
           const SizedBox(height: 8.0),
-          const Text(
-            'Breaking News: Flutter 3.0 Released!',
+          Text(
+            article.title,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
@@ -32,8 +40,8 @@ class NewsTile extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 4.0),
-          const Text(
-            'Flutter 3.0 has been released with exciting new features and improvements. Check out the latest updates and enhancements in this version.',
+          Text(
+            article.description ?? '',
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
