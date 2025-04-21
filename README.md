@@ -16,20 +16,18 @@ A modern, feature-rich news application built with **Flutter** that delivers cat
 ---
 
 ## 🖼️ Screenshots
-
 <table>
   <tr>
-    <td><img src="https://drive.google.com/file/d/13TfouSEmpKdJ6OwVGW_v481P_ZHlTtfN/view?usp=drive_link" alt="Home Screen" width="200"/></td>
-    <td><img src="https://drive.google.com/file/d/1URdJbDxNr1SlcbKplp2rRZf0gHqzIYVV/view?usp=drive_link" alt="Health Category" width="200"/></td>
-    <td><img src="screenshots/science_screen.png" alt="Science Category" width="200"/></td>
+    <td><img src="assets/screenshots/Screenshot_1745269314.png" alt="Home Screen" width="200"/></td>
+    <td><img src="assets/screenshots/Screenshot_1745269325.png" alt="Health Category" width="200"/></td>
+    <td><img src="assets/screenshots/Screenshot_1745269348.png" alt="Science Category" width="200"/></td>
   </tr>
   <tr>
-    <td><img src="https://drive.google.com/file/d/1Mg_GM_3l2byE_GJQLY7dw8EkrRPVJ4q8/view?usp=drive_link" alt="Entertainment Category" width="200"/></td>
-    <td><img src="https://drive.google.com/file/d/1MleqQQLTgI4yEYkZZ2EARIEZAfhJf9vv/view?usp=drive_link" alt="Technology Category" width="200"/></td>
-    <td><img src="https://drive.google.com/file/d/1SaTgMM_sExsftqW_UU4fxP-D4ce1PsDo/view?usp=drive_link" alt="Business Category" width="200"/></td>
+    <td><img src="assets/screenshots/Screenshot_1745269360.png" alt="Entertainment Category" width="200"/></td>
+    <td><img src="assets/screenshots/Screenshot_1745269385.png" alt="Technology Category" width="200"/></td>
+    <td><img src="assets/screenshots/Screenshot_1745269391.png" alt="Business Category" width="200"/></td>
   </tr>
 </table>
-
 ---
 
 ## 🛠️ Technologies Used
