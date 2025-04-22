@@ -1,4 +1,4 @@
-`# 📱 NewsApp
+## 📱 NewsApp
 
 A modern, feature-rich news application built with **Flutter** that delivers categorized news content through a clean and responsive interface.
 
